@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+.Wrap { white-space: nowrap; }
+body { font-family: sans-serif; font-size: 11pt; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextItemInsigAdd { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigDel { color: #000000; background-color: #EFEFFF; text-decoration: line-through; }
+td.TextItemInsigDiffMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigLeftMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigRightMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemNum { color: #827357; background-color: #F2F2F2; }
+td.TextItemSame { color: #000000; background-color: #FFFFFF; }
+td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
+td.TextItemSigDiffMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigLeftMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigRightMod { color: #000000; background-color: #FFE3E3; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+.TextSegElementKeyword { font-weight: bold; }
+.TextSegElementIdentifier { }
+.TextSegElementNumber { color: #2E9269; }
+.TextSegElementString { color: #3A7726; }
+.TextSegElementComment { color: #786A41; }
+.TextSegElementOperator { }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br/>
+Produced: 7/19/2015 9:50:34 AM<br/>
+&nbsp; &nbsp;
+<br/>
+Mode:&nbsp; Differences, With Context, Ignoring Unimportant &nbsp;
+<br/>
+Left file: C:\mksong\workspace_genproglase\genproglase-output-r1658\template03\0718-1345\valgrind-bug-11821-11822\sanity\coregrind\vgdb.c &nbsp;
+<br/>
+Right file: C:\mksong\workspace_genproglase\genproglase-output-r1658\template03\0718-1345\valgrind-bug-11821-11822\000000\coregrind\vgdb.c &nbsp;
+<br/>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">9759</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">tmp___3</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementIdentifier">vmalloc</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">tmp___1</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementIdentifier">tmp___2</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementNumber">1</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">9759</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">tmp___3</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementIdentifier">vmalloc</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">tmp___1</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementIdentifier">tmp___2</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementNumber">1</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">9760</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">vgdb_format</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">tmp___3</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9760</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">vgdb_format</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">tmp___3</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">9761</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">strcpy</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementOperator">*</span><span class="TextSegElementComment">/* __restrict&nbsp; */</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">vgdb_format</span><span class="TextSegElementOperator">,</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9761</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">strcpy</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementOperator">*</span><span class="TextSegElementComment">/* __restrict&nbsp; */</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">vgdb_format</span><span class="TextSegElementOperator">,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">9762</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementComment">/* __restrict&nbsp; */</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">vgdb_prefix</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9762</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementComment">/* __restrict&nbsp; */</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">vgdb_prefix</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">9763</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">strcat</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementOperator">*</span><span class="TextSegElementComment">/* __restrict&nbsp; */</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">vgdb_format</span><span class="TextSegElementOperator">,</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9763</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">strcat</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementOperator">*</span><span class="TextSegElementComment">/* __restrict&nbsp; */</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">vgdb_format</span><span class="TextSegElementOperator">,</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">9764</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementComment">/* __restrict&nbsp; */</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">suffix</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9764</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementComment">/* __restrict&nbsp; */</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">suffix</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">9765</td>
+<td class="TextItemSigDiffMod Wrap">&nbsp; &nbsp; strcpy((char */* __restrict&nbsp; */)vgdb_dir_name,</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">9765</td>
+<td class="TextItemSigDiffMod Wrap">&nbsp; &nbsp; <span class="TextSegSigDiff">__builtin_</span>str<span class="TextSegSigDiff">n</span>cpy((char */* __restrict&nbsp; */)vgdb_dir_name,</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">9766</td>
+<td class="TextItemSigDiffMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; (char const&nbsp;&nbsp; */* __restrict&nbsp; */)vgdb_prefix<span class="TextSegSigDiff">);</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9766</td>
+<td class="TextItemSigDiffMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (char const&nbsp;&nbsp; */* __restrict&nbsp; */)vgdb_prefix<span class="TextSegSigDiff">,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9767</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">sizeof</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">char</span> <span class="TextSegSigDiff">*</span>/* __restrict&nbsp; */<span class="TextSegSigDiff">)</span><span class="TextSegSigDiff">vgdb_dir_name</span><span class="TextSegSigDiff">)</span> <span class="TextSegSigDiff">-</span> <span class="TextSegSigDiff">1</span><span class="TextSegSigDiff">)</span><span class="TextSegSigDiff">;</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">9767</td>
+<td class="TextItemSigDiffMod Wrap">&nbsp; &nbsp; tmp___4 = <span class="TextSegSigDiff">strlen</span>((char <span class="TextSegSigDiff">const</span>&nbsp;&nbsp; <span class="TextSegSigDiff">*</span>)vgdb_<span class="TextSegSigDiff">p</span><span class="TextSegSigDiff">r</span><span class="TextSegSigDiff">efix</span>);</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9768</td>
+<td class="TextItemSigDiffMod Wrap">&nbsp; &nbsp; tmp___4 = <span class="TextSegSigDiff">siz</span><span class="TextSegSigDiff">eof</span>((char <span class="TextSegSigDiff">*</span>/* __restrict&nbsp; */)vgdb_<span class="TextSegSigDiff">dir_name</span>) <span class="TextSegSigDiff">-</span> <span class="TextSegSigDiff">1</span>;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">9768</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">is</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">int</span> <span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">tmp___4</span> <span class="TextSegElementOperator">-</span> <span class="TextSegElementNumber">1</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">9769</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">is</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">int</span> <span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">tmp___4</span> <span class="TextSegElementOperator">-</span> <span class="TextSegElementNumber">1</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">9769</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementKeyword">while</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">is</span> <span class="TextSegElementOperator">&gt;</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementNumber">0</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9770</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementKeyword">while</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">is</span> <span class="TextSegElementOperator">&gt;</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementNumber">0</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">9770</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">int</span> <span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">vgdb_dir_name</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementIdentifier">is</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">=</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementNumber">47</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9771</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">int</span> <span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">vgdb_dir_name</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementIdentifier">is</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">=</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementNumber">47</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">9771</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">vgdb_dir_name</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">is</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementNumber">1</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementOperator">)</span><span class="TextSegElementString">'\000'</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9772</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">vgdb_dir_name</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">is</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementNumber">1</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementOperator">)</span><span class="TextSegElementString">'\000'</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">9772</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">break</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9773</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">break</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">9773</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9774</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+</table>
+<br/>
+</body>
+</html>

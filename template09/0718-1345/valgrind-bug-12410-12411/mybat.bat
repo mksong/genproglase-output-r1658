@@ -1,0 +1,8 @@
+bcompare @"myscript.txt" "sanity\coregrind\m_syswrap\syswrap-generic.c" "000000\coregrind\m_syswrap\syswrap-generic.c" "syswrap-generic.c_diff.html"
+bcompare @"myshortscript.txt" "sanity\coregrind\m_syswrap\syswrap-generic.c" "000000\coregrind\m_syswrap\syswrap-generic.c" "syswrap-generic.c_short_diff.html"
+bcompare @"myscript.txt" "sanity\coregrind\m_syswrap\syswrap-linux.c" "000000\coregrind\m_syswrap\syswrap-linux.c" "syswrap-linux.c_diff.html"
+bcompare @"myshortscript.txt" "sanity\coregrind\m_syswrap\syswrap-linux.c" "000000\coregrind\m_syswrap\syswrap-linux.c" "syswrap-linux.c_short_diff.html"
+bcompare @"myscript.txt" "sanity\none\tests\rlimit64_nofile.c" "000000\none\tests\rlimit64_nofile.c" "rlimit64_nofile.c_diff.html"
+bcompare @"myshortscript.txt" "sanity\none\tests\rlimit64_nofile.c" "000000\none\tests\rlimit64_nofile.c" "rlimit64_nofile.c_short_diff.html"
+bcompare @"myscript.txt" "sanity\none\tests\rlimit_nofile.c" "000000\none\tests\rlimit_nofile.c" "rlimit_nofile.c_diff.html"
+bcompare @"myshortscript.txt" "sanity\none\tests\rlimit_nofile.c" "000000\none\tests\rlimit_nofile.c" "rlimit_nofile.c_short_diff.html"

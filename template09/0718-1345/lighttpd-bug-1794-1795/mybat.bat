@@ -1,0 +1,6 @@
+bcompare @"myscript.txt" "sanity\src\configfile-glue.c" "000000\src\configfile-glue.c" "configfile-glue.c_diff.html"
+bcompare @"myshortscript.txt" "sanity\src\configfile-glue.c" "000000\src\configfile-glue.c" "configfile-glue.c_short_diff.html"
+bcompare @"myscript.txt" "sanity\src\configparser.c" "000000\src\configparser.c" "configparser.c_diff.html"
+bcompare @"myshortscript.txt" "sanity\src\configparser.c" "000000\src\configparser.c" "configparser.c_short_diff.html"
+bcompare @"myscript.txt" "sanity\src\response.c" "000000\src\response.c" "response.c_diff.html"
+bcompare @"myshortscript.txt" "sanity\src\response.c" "000000\src\response.c" "response.c_short_diff.html"

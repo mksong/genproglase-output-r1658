@@ -1,0 +1,439 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+.Wrap { white-space: nowrap; }
+body { font-family: sans-serif; font-size: 11pt; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextItemInsigAdd { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigDel { color: #000000; background-color: #EFEFFF; text-decoration: line-through; }
+td.TextItemInsigDiffMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigLeftMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigRightMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemNum { color: #827357; background-color: #F2F2F2; }
+td.TextItemSame { color: #000000; background-color: #FFFFFF; }
+td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
+td.TextItemSigDiffMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigLeftMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigRightMod { color: #000000; background-color: #FFE3E3; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+.TextSegElementKeyword { font-weight: bold; }
+.TextSegElementIdentifier { }
+.TextSegElementNumber { color: #2E9269; }
+.TextSegElementString { color: #3A7726; }
+.TextSegElementComment { color: #786A41; }
+.TextSegElementOperator { }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br/>
+Produced: 7/19/2015 1:59:19 PM<br/>
+&nbsp; &nbsp;
+<br/>
+Mode:&nbsp; Differences, With Context, Ignoring Unimportant &nbsp;
+<br/>
+Left file: C:\mksong\workspace_genproglase\genproglase-output-r1658\template10\0718-1345\php-bug-2011-05-13-db0c957f02-8ba00176f1\sanity\Zend\zend_compile.c &nbsp;
+<br/>
+Right file: C:\mksong\workspace_genproglase\genproglase-output-r1658\template10\0718-1345\php-bug-2011-05-13-db0c957f02-8ba00176f1\000000\Zend\zend_compile.c &nbsp;
+<br/>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">15638</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">tmp___4</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementIdentifier">zend_hash_quick_find</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">HashTable</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">function_tables</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementIdentifier">i</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">,</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">15638</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">tmp___4</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementIdentifier">zend_hash_quick_find</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">HashTable</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">function_tables</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementIdentifier">i</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15639</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">arKey</span><span class="TextSegElementOperator">,</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15639</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">arKey</span><span class="TextSegElementOperator">,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15640</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">nKeyLength</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">h</span><span class="TextSegElementOperator">,</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15640</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">nKeyLength</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">h</span><span class="TextSegElementOperator">,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15641</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">void</span> <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementIdentifier">other_trait_fn</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15641</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">void</span> <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementIdentifier">other_trait_fn</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15642</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">tmp___4</span> <span class="TextSegElementOperator">=</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">int</span> <span class="TextSegElementIdentifier">__attribute__</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">__visibility__</span><span class="TextSegElementOperator">(</span><span class="TextSegElementString">&quot;default&quot;</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">)</span>&nbsp; <span class="TextSegElementOperator">)</span><span class="TextSegElementNumber">0</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15642</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">tmp___4</span> <span class="TextSegElementOperator">=</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">int</span> <span class="TextSegElementIdentifier">__attribute__</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">__visibility__</span><span class="TextSegElementOperator">(</span><span class="TextSegElementString">&quot;default&quot;</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">)</span>&nbsp; <span class="TextSegElementOperator">)</span><span class="TextSegElementNumber">0</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">15643</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">other_trait_fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementNumber">2</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15643</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">other_trait_fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementNumber">2</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemNum AlignRight Wrap">15644</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15645</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">do_inheritance_check_on_method</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">other_trait_fn</span><span class="TextSegSigDiff">,</span> <span class="TextSegSigDiff">fn</span><span class="TextSegSigDiff">)</span><span class="TextSegSigDiff">;</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">15644</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">zend_function_dtor</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">other_trait_fn</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">15646</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">zend_function_dtor</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">other_trait_fn</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemNum AlignRight Wrap">15647</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">}</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">15645</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">zend_hash_del_key_or_index</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">function_tables</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementIdentifier">i</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">,</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">15648</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">zend_hash_del_key_or_index</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">function_tables</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementIdentifier">i</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15646</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">arKey</span><span class="TextSegElementOperator">,</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15649</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">arKey</span><span class="TextSegElementOperator">,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15647</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">nKeyLength</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">h</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementNumber">2</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15650</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">nKeyLength</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">h</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementNumber">2</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15648</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15651</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">15649</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementNumber">2</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15652</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementNumber">2</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemNum AlignRight Wrap">15653</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15654</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">do_inheritance_check_on_method</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">fn</span><span class="TextSegSigDiff">,</span> <span class="TextSegSigDiff">other_trait_fn</span><span class="TextSegSigDiff">)</span><span class="TextSegSigDiff">;</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">15650</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">abstract_solved</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">size_t</span> <span class="TextSegElementOperator">)</span><span class="TextSegElementNumber">1</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">15655</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">abstract_solved</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">size_t</span> <span class="TextSegElementOperator">)</span><span class="TextSegElementNumber">1</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemNum AlignRight Wrap">15656</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">}</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">15651</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">15657</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15652</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">collision</span> <span class="TextSegElementOperator">+</span><span class="TextSegElementOperator">+</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15658</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">collision</span> <span class="TextSegElementOperator">+</span><span class="TextSegElementOperator">+</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15653</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">zend_function_dtor</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">other_trait_fn</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15659</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">zend_function_dtor</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">other_trait_fn</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15654</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">zend_hash_del_key_or_index</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">function_tables</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementIdentifier">i</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">,</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15660</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">zend_hash_del_key_or_index</span><span class="TextSegElementOperator">(</span><span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">function_tables</span> <span class="TextSegElementOperator">+</span> <span class="TextSegElementIdentifier">i</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15655</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">arKey</span><span class="TextSegElementOperator">,</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15661</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementOperator">(</span><span class="TextSegElementKeyword">char</span> <span class="TextSegElementKeyword">const</span>&nbsp;&nbsp; <span class="TextSegElementOperator">*</span><span class="TextSegElementOperator">)</span><span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">arKey</span><span class="TextSegElementOperator">,</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">15656</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">nKeyLength</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">h</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementNumber">2</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">15662</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">nKeyLength</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementIdentifier">hash_key</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">h</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementNumber">2</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionGap"><td colspan="5">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">16114</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">16120</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16115</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementOperator">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16121</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementOperator">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16116</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">scope</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementIdentifier">ce</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16122</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">scope</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementIdentifier">ce</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16117</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">prototype</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16123</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">prototype</span> <span class="TextSegElementOperator">=</span> <span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16118</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16124</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">16119</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementNumber">8</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16125</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementNumber">8</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemNum AlignRight Wrap">16126</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16127</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">do_inheritance_check_on_method</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">prototype</span><span class="TextSegSigDiff">,</span> <span class="TextSegSigDiff">fn</span><span class="TextSegSigDiff">)</span><span class="TextSegSigDiff">;</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">16120</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">|</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementNumber">8</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">16128</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">|</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementNumber">8</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemNum AlignRight Wrap">16129</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">}</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">16121</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">16130</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16122</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementNumber">2</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16131</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementNumber">2</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16123</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">|</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementNumber">8</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16132</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">|</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementNumber">8</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16124</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16133</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16125</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">goto</span> <span class="TextSegElementIdentifier">_L</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16134</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; &nbsp; <span class="TextSegElementKeyword">goto</span> <span class="TextSegElementIdentifier">_L</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16126</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16135</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementOperator">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16127</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16136</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16128</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">_L</span><span class="TextSegElementOperator">:</span> <span class="TextSegElementComment">/* CIL Label */</span> </td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16137</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementIdentifier">_L</span><span class="TextSegElementOperator">:</span> <span class="TextSegElementComment">/* CIL Label */</span> </td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">16129</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementNumber">8</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16138</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">&amp;</span> <span class="TextSegElementNumber">8</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemNum AlignRight Wrap">16139</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16140</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">do_inheritance_check_on_method</span><span class="TextSegSigDiff">(</span><span class="TextSegSigDiff">fn</span><span class="TextSegSigDiff">,</span> <span class="TextSegSigDiff">prototype</span><span class="TextSegSigDiff">)</span><span class="TextSegSigDiff">;</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">16130</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementNumber">8</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">16141</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">&gt;</span><span class="TextSegElementIdentifier">common</span><span class="TextSegElementOperator">.</span><span class="TextSegElementIdentifier">fn_flags</span> <span class="TextSegElementOperator">-</span><span class="TextSegElementOperator">=</span> <span class="TextSegElementNumber">8</span><span class="TextSegElementIdentifier">U</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemNum AlignRight Wrap">16142</td>
+<td class="TextItemSigRightMod Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegSigDiff">}</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">16131</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">16143</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16132</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16144</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16133</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementOperator">}</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16145</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementOperator">}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16134</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16146</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementKeyword">if</span> <span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">)</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">16135</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">do_inheritance_check_on_method</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16147</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; &nbsp; <span class="TextSegElementIdentifier">do_inheritance_check_on_method</span><span class="TextSegElementOperator">(</span><span class="TextSegElementIdentifier">fn</span><span class="TextSegElementOperator">,</span> <span class="TextSegElementIdentifier">prototype</span><span class="TextSegElementOperator">)</span><span class="TextSegElementOperator">;</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">16136</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span> <span class="TextSegElementOperator">{</span></td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16148</td>
+<td class="TextItemSame Wrap">&nbsp; &nbsp; <span class="TextSegElementOperator">}</span> <span class="TextSegElementKeyword">else</span> <span class="TextSegElementOperator">{</span></td>
+</tr>
+</table>
+<br/>
+</body>
+</html>
